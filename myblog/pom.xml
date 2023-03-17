@@ -22,6 +22,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <mybatis-plus.version>3.5.3</mybatis-plus.version>
+        <hutool.version>5.8.12</hutool.version>
+        <knife4j.version>4.0.0</knife4j.version>
     </properties>
 
     <dependencies>
@@ -50,7 +52,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
-            <version>3.5.3</version>
+            <version>${mybatis-plus.version}</version>
         </dependency>
         <!--freemarker-->
         <dependency>
@@ -78,13 +80,13 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.8.12</version>
+            <version>${hutool.version}</version>
         </dependency>
         <!--swagger-->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
-            <version>4.0.0</version>
+            <version>${knife4j.version}</version>
         </dependency>
         <!--Nacos-->
         <!--<dependency>
@@ -96,7 +98,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.12</version>
+            <version>4.5.13</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
